@@ -2,7 +2,10 @@
 
 # ThreadVault Design System
 
-## Brand
+## Base
+
+O Design System do ThreadVault é construído sobre o **Ant Design**, com
+tema customizado via `ConfigProvider` e tokens alinhados à marca.
 
 **Logo Font** - Marcellus
 
@@ -81,6 +84,11 @@ Caption 12px
 
 # Components
 
+Preferir componentes do Ant Design (`Button`, `Input`, `Select`,
+`Card`, `Modal`, `Drawer`, `message`/`notification`, `Skeleton`,
+`Layout`, `Menu`, etc.), customizados via tema e wrappers quando
+necessário.
+
 ## Inputs
 
 -   Default
@@ -103,13 +111,13 @@ Caption 12px
 
 ## Feedback
 
--   Toast
+-   Toast (message / notification)
 -   Skeleton
--   Empty State
+-   Empty State (Empty)
 
 ## Navigation
 
--   Sidebar
+-   Sidebar (Layout + Menu)
 -   Bottom Navigation
 -   Header
 

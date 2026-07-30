@@ -47,7 +47,7 @@ Preparar toda a infraestrutura do projeto.
 - Configurar Prettier
 - Configurar Husky
 - Configurar aliases
-- Configurar Tailwind CSS
+- Configurar Ant Design
 - Instalar React Router
 - Organizar estrutura de pastas
 
@@ -62,19 +62,20 @@ Preparar toda a infraestrutura do projeto.
 
 ## Objetivo
 
-Construir uma biblioteca reutilizável de componentes.
+Configurar e customizar o Ant Design como Design System do projeto.
 
 ### Foundations
 
+- Theme tokens (ConfigProvider)
 - Colors
 - Typography
 - Spacing
 - Radius
 - Shadows
 - Breakpoints
-- Icons
+- Icons (@ant-design/icons)
 
-### Componentes Base
+### Componentes Base (Ant Design + wrappers)
 
 - Button
 - IconButton
@@ -84,21 +85,21 @@ Construir uma biblioteca reutilizável de componentes.
 - Switch
 - Select
 - Badge
-- Chip
+- Tag / Chip
 - Divider
 
 ### Componentes Compostos
 
 - Card
-- Dialog
+- Modal (Dialog)
 - Drawer
-- Sidebar
+- Sidebar (Layout + Menu)
 - Bottom Navigation
 - Header
 - SearchBar
 - Empty State
 - Skeleton
-- Toast
+- Toast (message / notification)
 
 ### Extras
 
@@ -109,7 +110,7 @@ Construir uma biblioteca reutilizável de componentes.
 
 ### Entrega
 
-- Design System completo
+- Design System completo sobre Ant Design
 
 ---
 

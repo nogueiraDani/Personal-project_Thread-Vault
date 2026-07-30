@@ -10,7 +10,7 @@
 -   TypeScript
 -   Vite
 -   React Router
--   Tailwind CSS
+-   Ant Design
 -   TanStack Query
 -   Zustand
 -   React Hook Form

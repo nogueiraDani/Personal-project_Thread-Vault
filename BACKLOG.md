@@ -28,7 +28,7 @@
 ### Epic: Infraestrutura
 
 -   Criar projeto
--   Configurar Tailwind
+-   Configurar Ant Design
 -   Configurar ESLint
 -   Configurar Prettier
 -   Configurar Husky
@@ -41,13 +41,14 @@
 
 ### Epic: Foundations
 
+-   Theme tokens (ConfigProvider)
 -   Colors
 -   Typography
 -   Shadows
 -   Radius
 -   Spacing
 
-### Epic: Components
+### Epic: Components (Ant Design + wrappers)
 
 -   Button
 -   Input
@@ -56,7 +57,7 @@
 -   Switch
 -   Card
 -   Badge
--   Dialog
+-   Modal
 -   Drawer
 -   Toast
 

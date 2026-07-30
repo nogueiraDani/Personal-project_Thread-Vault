@@ -5,7 +5,7 @@
 ## Objetivo
 
 Documentar padrões para criação e utilização dos componentes do Design
-System.
+System, preferencialmente baseados no **Ant Design**.
 
 ------------------------------------------------------------------------
 
@@ -13,34 +13,37 @@ System.
 
 Todos os componentes devem:
 
--   Ser reutilizáveis
+-   Preferir componentes do Ant Design quando cobrirem o caso de uso
+-   Ser reutilizáveis (wrappers tipados quando necessário)
 -   Receber props tipadas
 -   Possuir estados de loading
 -   Possuir estados disabled
 -   Possuir foco acessível
--   Seguir o tema da aplicação
+-   Seguir o tema da aplicação (`ConfigProvider`)
 -   Ser documentados
 
 ------------------------------------------------------------------------
 
 # Button
 
+Base: `Button` do Ant Design.
+
 ## Props
 
--   variant
+-   variant / type
 -   size
 -   loading
 -   disabled
 -   icon
--   fullWidth
+-   fullWidth / block
 -   onClick
 
 ## Variants
 
 -   primary
--   secondary
--   outline
--   ghost
+-   secondary / default
+-   outline / dashed
+-   ghost / text
 -   danger
 
 ## Sizes
@@ -64,6 +67,8 @@ Todos os componentes devem:
 
 # Input
 
+Base: `Input` / `Input.Password` do Ant Design.
+
 ## Estados
 
 -   default
@@ -73,7 +78,7 @@ Todos os componentes devem:
 
 ## Deve possuir
 
--   label
+-   label (`Form.Item`)
 -   helper text
 -   mensagem de erro
 -   suporte ao React Hook Form
@@ -82,6 +87,8 @@ Todos os componentes devem:
 
 # Card
 
+Base: `Card` do Ant Design.
+
 Utilizar para agrupar informações relacionadas.
 
 Nunca utilizar apenas para criar espaçamento.
@@ -89,6 +96,8 @@ Nunca utilizar apenas para criar espaçamento.
 ------------------------------------------------------------------------
 
 # Dialog
+
+Base: `Modal` do Ant Design.
 
 Sempre possuir:
 
@@ -100,6 +109,8 @@ Sempre possuir:
 ------------------------------------------------------------------------
 
 # Toast
+
+Base: `message` ou `notification` do Ant Design.
 
 Tipos:
 
@@ -116,6 +127,8 @@ Tempo padrão:
 
 # Empty State
 
+Base: `Empty` do Ant Design.
+
 Todo módulo deve possuir um estado vazio contendo:
 
 -   ilustração
@@ -127,6 +140,8 @@ Todo módulo deve possuir um estado vazio contendo:
 
 # Skeleton
 
+Base: `Skeleton` do Ant Design.
+
 Utilizar enquanto dados estão sendo carregados.
 
 Nunca substituir por spinner em listas.
@@ -136,6 +151,8 @@ Nunca substituir por spinner em listas.
 # Sidebar
 
 Desktop apenas.
+
+Base: `Layout.Sider` + `Menu` do Ant Design.
 
 Deve permitir:
 
@@ -191,6 +208,7 @@ Evitar any.
 
 # Checklist antes de criar um componente
 
+-   Já existe no Ant Design?
 -   Reutilizável?
 -   Tipado?
 -   Responsivo?
