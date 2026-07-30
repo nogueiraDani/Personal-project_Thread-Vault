@@ -8,29 +8,29 @@ O ThreadVault segue uma arquitetura baseada em **Feature-Based
 Architecture**, priorizando escalabilidade, reutilização e baixo
 acoplamento.
 
-------------------------------------------------------------------------
+---
 
 # Stack
 
 ## Frontend
 
--   React
--   TypeScript
--   Vite
--   React Router
--   Ant Design
--   TanStack Query
--   Zustand
--   React Hook Form
--   Zod
--   Axios
--   Framer Motion
+- React
+- TypeScript
+- Vite
+- React Router
+- Ant Design
+- TanStack Query
+- Zustand
+- React Hook Form
+- Zod
+- Axios
+- Framer Motion
 
-------------------------------------------------------------------------
+---
 
 # Estrutura
 
-``` text
+```text
 src/
 ├── app/
 ├── assets/
@@ -50,7 +50,7 @@ src/
 └── utils/
 ```
 
-------------------------------------------------------------------------
+---
 
 # Camadas
 
@@ -58,27 +58,27 @@ src/
 
 Responsável apenas pela renderização.
 
--   Pages
--   Layouts
--   Components
+- Pages
+- Layouts
+- Components
 
 Nunca realiza chamadas HTTP diretamente.
 
-------------------------------------------------------------------------
+---
 
 ## Feature
 
 Cada funcionalidade encapsula:
 
--   componentes
--   hooks
--   validações
--   tipos
--   serviços específicos
+- componentes
+- hooks
+- validações
+- tipos
+- serviços específicos
 
 Exemplo:
 
-``` text
+```text
 features/
 └── threads/
     ├── components/
@@ -88,7 +88,7 @@ features/
     └── pages/
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Services
 
@@ -96,12 +96,12 @@ Comunicação com API.
 
 Responsabilidades:
 
--   Axios
--   tratamento de erros
--   interceptors
--   autenticação
+- Axios
+- tratamento de erros
+- interceptors
+- autenticação
 
-------------------------------------------------------------------------
+---
 
 ## Store
 
@@ -109,58 +109,58 @@ Estado global utilizando Zustand.
 
 Exemplos:
 
--   usuário
--   tema
--   preferências
--   filtros
+- usuário
+- tema
+- preferências
+- filtros
 
 Evitar armazenar dados de servidor. Para isso utilizar TanStack Query.
 
-------------------------------------------------------------------------
+---
 
 ## Server State
 
 TanStack Query será responsável por:
 
--   cache
--   refetch
--   sincronização
--   loading
--   error state
+- cache
+- refetch
+- sincronização
+- loading
+- error state
 
-------------------------------------------------------------------------
+---
 
 # Navegação
 
 Public Routes
 
--   Login
--   Cadastro
+- Login
+- Cadastro
 
 Protected Routes
 
--   Dashboard
--   Biblioteca
--   Estoque
--   Perfil
--   Configurações
+- Dashboard
+- Biblioteca
+- Estoque
+- Perfil
+- Configurações
 
-------------------------------------------------------------------------
+---
 
 # Fluxo de Autenticação
 
 Login ↓ Validação (Zod) ↓ API ↓ JWT ↓ Persistência ↓ Store ↓ Protected
 Routes
 
-------------------------------------------------------------------------
+---
 
 # Princípios
 
--   Mobile First
--   Componentização
--   Separation of Concerns
--   Reutilização
--   Acessibilidade
--   Responsividade
--   Clean Code
--   Feature First
+- Mobile First
+- Componentização
+- Separation of Concerns
+- Reutilização
+- Acessibilidade
+- Responsividade
+- Clean Code
+- Feature First

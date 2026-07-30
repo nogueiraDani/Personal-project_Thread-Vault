@@ -6,23 +6,23 @@
 
 ### Frontend
 
--   React 19
--   TypeScript
--   Vite
--   React Router
--   Ant Design
--   TanStack Query
--   Zustand
--   React Hook Form
--   Zod
--   Axios
--   Framer Motion
+- React 19
+- TypeScript
+- Vite
+- React Router
+- Ant Design
+- TanStack Query
+- Zustand
+- React Hook Form
+- Zod
+- Axios
+- Framer Motion
 
-------------------------------------------------------------------------
+---
 
 ## Estrutura de Pastas
 
-``` text
+```text
 src/
 │
 ├── app/
@@ -55,37 +55,37 @@ src/
 └── main.tsx
 ```
 
-------------------------------------------------------------------------
+---
 
 ## Convenções
 
--   Componentes: PascalCase
--   Hooks: useNomeHook.ts
--   Interfaces: IThread
--   Types: Thread.ts
--   Pastas em lowercase
--   Um componente por arquivo
+- Componentes: PascalCase
+- Hooks: useNomeHook.ts
+- Interfaces: IThread
+- Types: Thread.ts
+- Pastas em lowercase
+- Um componente por arquivo
 
-------------------------------------------------------------------------
+---
 
 ## Git Flow
 
-main develop feature/* fix/* hotfix/\*
+main develop feature/_ fix/_ hotfix/\*
 
-------------------------------------------------------------------------
+---
 
 ## Conventional Commits
 
 feat: fix: docs: style: refactor: test: build: chore:
 
-------------------------------------------------------------------------
+---
 
 ## Princípios
 
--   Mobile First
--   Componentização
--   Clean Code
--   SOLID quando aplicável
--   Acessibilidade
--   Responsividade
--   Design System First
+- Mobile First
+- Componentização
+- Clean Code
+- SOLID quando aplicável
+- Acessibilidade
+- Responsividade
+- Design System First

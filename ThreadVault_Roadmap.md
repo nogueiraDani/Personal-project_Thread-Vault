@@ -15,14 +15,14 @@ iniciar a implementação.
 
 ### Etapas
 
-- Definir identidade da marca
-- Criar logo
-- Definir paleta de cores
-- Escolher tipografia (Marcellus + Inter)
-- Definir ícones
-- Criar wireframes
-- Criar protótipo navegável
-- Validar fluxo de navegação
+- [x] Definir identidade da marca
+- [x] Criar logo
+- [x] Definir paleta de cores
+- [x] Escolher tipografia (Marcellus + Inter)
+- [x] Definir ícones
+- [x] Criar wireframes
+- [x] Criar protótipo navegável
+- [x] Validar fluxo de navegação
 
 ### Entrega
 
@@ -39,17 +39,17 @@ Preparar toda a infraestrutura do projeto.
 
 ### Etapas
 
-- Criar repositório no GitHub
-- Configurar GitHub Projects (Kanban)
-- Criar README inicial
-- Criar projeto React + Vite + TypeScript
-- Configurar ESLint
-- Configurar Prettier
-- Configurar Husky
-- Configurar aliases
-- Configurar Ant Design
-- Instalar React Router
-- Organizar estrutura de pastas
+- [x] Criar repositório no GitHub
+- [ ] Configurar GitHub Projects (Kanban)
+- [ ] Criar README inicial
+- [ ] Criar projeto React + Vite + TypeScript
+- [ ] Configurar ESLint
+- [ ] Configurar Prettier
+- [ ] Configurar Husky
+- [ ] Configurar aliases
+- [ ] Configurar Ant Design
+- [ ] Instalar React Router
+- [ ] Organizar estrutura de pastas
 
 ### Entrega
 
@@ -66,47 +66,47 @@ Configurar e customizar o Ant Design como Design System do projeto.
 
 ### Foundations
 
-- Theme tokens (ConfigProvider)
-- Colors
-- Typography
-- Spacing
-- Radius
-- Shadows
-- Breakpoints
-- Icons (@ant-design/icons)
+- [ ] Theme tokens (ConfigProvider)
+- [ ] Colors
+- [ ] Typography
+- [ ] Spacing
+- [ ] Radius
+- [ ] Shadows
+- [ ] Breakpoints
+- [ ] Icons (@ant-design/icons)
 
 ### Componentes Base (Ant Design + wrappers)
 
-- Button
-- IconButton
-- Input
-- PasswordInput
-- Checkbox
-- Switch
-- Select
-- Badge
-- Tag / Chip
-- Divider
+- [ ] Button
+- [ ] IconButton
+- [ ] Input
+- [ ] PasswordInput
+- [ ] Checkbox
+- [ ] Switch
+- [ ] Select
+- [ ] Badge
+- [ ] Tag / Chip
+- [ ] Divider
 
 ### Componentes Compostos
 
-- Card
-- Modal (Dialog)
-- Drawer
-- Sidebar (Layout + Menu)
-- Bottom Navigation
-- Header
-- SearchBar
-- Empty State
-- Skeleton
-- Toast (message / notification)
+- [ ] Card
+- [ ] Modal (Dialog)
+- [ ] Drawer
+- [ ] Sidebar (Layout + Menu)
+- [ ] Bottom Navigation
+- [ ] Header
+- [ ] SearchBar
+- [ ] Empty State
+- [ ] Skeleton
+- [ ] Toast (message / notification)
 
 ### Extras
 
-- Light Theme
-- Dark Theme
-- Estados (hover, focus, disabled)
-- Micro animações
+- [ ] Light Theme
+- [ ] Dark Theme
+- [ ] Estados (hover, focus, disabled)
+- [ ] Micro animações
 
 ### Entrega
 
@@ -122,24 +122,24 @@ Construir a estrutura visual do aplicativo.
 
 ### Telas
 
-- Splash
-- Login
-- Cadastro
-- Dashboard
-- Biblioteca
-- Cadastro de Linha
-- Detalhes da Linha
-- Estoque
-- Perfil
-- Configurações
+- [ ] Splash
+- [ ] Login
+- [ ] Cadastro
+- [ ] Dashboard
+- [ ] Biblioteca
+- [ ] Cadastro de Linha
+- [ ] Detalhes da Linha
+- [ ] Estoque
+- [ ] Perfil
+- [ ] Configurações
 
 ### Layout
 
-- Mobile First
-- Sidebar Desktop
-- Bottom Navigation
-- Floating Action Button
-- Header
+- [ ] Mobile First
+- [ ] Sidebar Desktop
+- [ ] Bottom Navigation
+- [ ] Floating Action Button
+- [ ] Header
 
 ### Entrega
 
@@ -156,13 +156,13 @@ Implementar autenticação e gerenciamento de sessão.
 
 ### Etapas
 
-- React Hook Form
-- Zod
-- Login
-- Cadastro
-- Persistência de sessão
-- Zustand ou Context API
-- Protected Routes
+- [ ] React Hook Form
+- [ ] Zod
+- [ ] Login
+- [ ] Cadastro
+- [ ] Persistência de sessão
+- [ ] Zustand ou Context API
+- [ ] Protected Routes
 
 ### Entrega
 
@@ -178,13 +178,13 @@ Criar a principal funcionalidade do aplicativo.
 
 ### Etapas
 
-- Modelo Thread
-- Lista de linhas
-- Cards
-- Favoritos
-- Quantidade
-- Tenho / Não tenho
-- Localização
+- [ ] Modelo Thread
+- [ ] Lista de linhas
+- [ ] Cards
+- [ ] Favoritos
+- [ ] Quantidade
+- [ ] Tenho / Não tenho
+- [ ] Localização
 
 ### Entrega
 
@@ -200,19 +200,19 @@ Implementar o CRUD completo.
 
 ### Campos
 
-- Código
-- Marca
-- Nome
-- Quantidade
-- Cor
-- Categoria
-- Observações
+- [ ] Código
+- [ ] Marca
+- [ ] Nome
+- [ ] Quantidade
+- [ ] Cor
+- [ ] Categoria
+- [ ] Observações
 
 ### Recursos
 
-- Preview da cor
-- Validação
-- Feedback visual
+- [ ] Preview da cor
+- [ ] Validação
+- [ ] Feedback visual
 
 ### Entrega
 
@@ -228,13 +228,13 @@ Criar uma visão geral da coleção.
 
 ### Widgets
 
-- Total de linhas
-- Tenho
-- Não tenho
-- Favoritas
-- Baixo estoque
-- Últimas adicionadas
-- Progresso da coleção
+- [ ] Total de linhas
+- [ ] Tenho
+- [ ] Não tenho
+- [ ] Favoritas
+- [ ] Baixo estoque
+- [ ] Últimas adicionadas
+- [ ] Progresso da coleção
 
 ### Entrega
 
@@ -250,23 +250,23 @@ Melhorar a experiência de consulta.
 
 ### Busca
 
-- Código
-- Nome
-- Marca
+- [ ] Código
+- [ ] Nome
+- [ ] Marca
 
 ### Filtros
 
-- Marca
-- Categoria
-- Favoritas
-- Tenho
-- Não tenho
+- [ ] Marca
+- [ ] Categoria
+- [ ] Favoritas
+- [ ] Tenho
+- [ ] Não tenho
 
 ### Ordenação
 
-- Código
-- Nome
-- Quantidade
+- [ ] Código
+- [ ] Nome
+- [ ] Quantidade
 
 ### Entrega
 
@@ -307,10 +307,10 @@ Criar uma API REST para a aplicação.
 
 ### Funcionalidades
 
-- Login
-- CRUD
-- JWT
-- Upload de imagens
+- [ ] Login
+- [ ] CRUD
+- [ ] JWT
+- [ ] Upload de imagens
 
 ### Entrega
 
@@ -326,9 +326,9 @@ Publicar a aplicação.
 
 ### Serviços
 
-- Frontend: Vercel
-- Backend: Railway ou Render
-- Banco: Neon
+- [ ] Frontend: Vercel
+- [ ] Backend: Railway ou Render
+- [ ] Banco: Neon
 
 ### Entrega
 
@@ -344,24 +344,24 @@ Elevar a qualidade do projeto.
 
 ### UX
 
-- Skeleton
-- Loading
-- Empty State
-- Error State
+- [ ] Skeleton
+- [ ] Loading
+- [ ] Empty State
+- [ ] Error State
 
 ### Performance
 
-- Lazy Loading
-- Code Splitting
-- Memoization
-- TanStack Query
+- [ ] Lazy Loading
+- [ ] Code Splitting
+- [ ] Memoization
+- [ ] TanStack Query
 
 ### Qualidade
 
-- Testes
-- Error Boundary
-- Acessibilidade
-- Lighthouse
+- [ ] Testes
+- [ ] Error Boundary
+- [ ] Acessibilidade
+- [ ] Lighthouse
 
 ### Entrega
 
